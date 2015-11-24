@@ -1,0 +1,31 @@
+@glowing-cursor-color: rgba(97, 210, 255, 1.0);
+@glowing-cursor-glow-color: rgba(75, 213, 255, 1.0);
+@glowing-cursor-width: 1px;
+
+.pulse-on {
+    transition: opacity 500ms ease-in-out;
+    opacity: 1;
+    border-color: @glowing-cursor-color;
+    border-width: 0 0 0 1px;
+}
+
+.pulse-off {
+    opacity: 0;
+    visibility: visible !important;
+}
+
+:host(.is-focused) {
+    .cursors {
+        & > .cursor {
+            .pulse-on;
+        }
+        &.blink-off > .cursor {
+            .pulse-off;
+        }
+    }
+}
+
+.cursor {
+    width: @glowing-cursor-width !important;
+    box-shadow: 0px 0px 6px 0px @glowing-cursor-glow-color;
+}

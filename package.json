@@ -1,0 +1,13 @@
+{
+  "name": "glowing-cursor",
+  "main": "./lib/glowing-cursor",
+  "version": "0.1.0",
+  "description": "A glowing cursor based on muchWeb's neon cursor",
+  "repository": "https://github.com/Matthew-Smith/atom-glowing-cursor",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
