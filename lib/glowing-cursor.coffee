@@ -6,11 +6,11 @@ module.exports =
             type: "string"
             default: "rgba(75,213,255,1.0)"
 
-            innerColor:
-                title: "Selector Inner Color"
-                description: "The color of the inner of the selector."
-                type: "string"
-                default: "rgba(97,210,255,1.0)"
+        innerColor:
+            title: "Selector Inner Color"
+            description: "The color of the inner of the selector."
+            type: "string"
+            default: "rgba(97,210,255,1.0)"
 
     activate: (state) ->
         atom.workspace.observeTextEditors @init
