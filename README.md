@@ -1,19 +1,19 @@
 # Glowing Cursor
 A customizable glowing colorful cursor for Atom.
 
-![Preview](glowing-cursor.gif)
+![Preview](https://raw.githubusercontent.com/Matthew-Smith/atom-glowing-cursor/master/glowing-cursor.gif)
 
 ## Features
 * #### adjustable width of cursor and the glow
- * ![Preview](cursor-width.gif)
+ * ![Preview](https://raw.githubusercontent.com/Matthew-Smith/atom-glowing-cursor/master/cursor-width.gif)
 
 
 * #### configurable color of cursor and its glow
- * ![Preview](cursor-color.gif)
+ * ![Preview](https://github.com/Matthew-Smith/atom-glowing-cursor/raw/master/cursor-color.gif)
 
 
 * #### configurable blink speed (0 is blink, 500ms is phase in and out)
- * ![Preview](cursor-blink.gif)
+ * ![Preview](https://raw.githubusercontent.com/Matthew-Smith/atom-glowing-cursor/master/cursor-blink.gif)
 
 ## Complementing themes and plugins
 ### Syntax
@@ -29,7 +29,7 @@ A customizable glowing colorful cursor for Atom.
  * Neon Selection: https://atom.io/packages/neon-selection
 
 #### Example using Steam Pirate UI, Neon Syntax, Neon Selector and Glowing Cursor
-![Preview](fullExample.gif)
+![Preview](https://github.com/Matthew-Smith/atom-glowing-cursor/raw/master/fullExample.gif)
 
 ### Inspired by and Referenced for development:
  * Neon Cursor: https://atom.io/packages/neon-cursor
