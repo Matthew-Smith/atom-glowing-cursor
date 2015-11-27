@@ -1,12 +1,22 @@
+
+Glowing Cursor blink:
+
 # Glowing Cursor
 A customizable glowing colorful cursor for Atom.
 
-![Preview](/var/www/html/Screenshots/glowing-cursor-temp.gif)
+![Preview](glowing-cursor.gif)
 
 ## Features
-* adjustable width of cursor and the glow
-* configurable color of cursor and its glow
-* configurable blink speed (0 is blink, 500ms is phase in and out)
+* #### adjustable width of cursor and the glow
+ * ![Preview](cursor-width.gif)
+
+
+* #### configurable color of cursor and its glow
+ * ![Preview](cursor-color.gif)
+
+
+* #### configurable blink speed (0 is blink, 500ms is phase in and out)
+ * ![Preview](cursor-blink.gif)
 
 ## Complementing themes and plugins
 * ### Syntax
