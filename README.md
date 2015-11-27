@@ -1,6 +1,3 @@
-
-Glowing Cursor blink:
-
 # Glowing Cursor
 A customizable glowing colorful cursor for Atom.
 
@@ -19,12 +16,16 @@ A customizable glowing colorful cursor for Atom.
  * ![Preview](cursor-blink.gif)
 
 ## Complementing themes and plugins
-* ### Syntax
+### Syntax
  * Steam Pirate Syntax: https://atom.io/themes/steam-pirate-syntax
  * Neon Syntax: https://atom.io/themes/neon-syntax
-* ### UI themes
+
+
+### UI themes
  * Steam Pirate UI: https://atom.io/themes/steam-pirate-ui
-* ### plugins
+
+
+### Plugins
  * Neon Selection: https://atom.io/packages/neon-selection
 
 #### Example using Steam Pirate UI, Neon Syntax, Neon Selector and Glowing Cursor
