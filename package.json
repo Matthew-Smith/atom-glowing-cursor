@@ -1,6 +1,6 @@
 {
   "name": "glowing-cursor",
-  "main": "./lib/glowing-cursor",
+  "main": "./lib/config",
   "version": "0.0.0",
   "keywords": [
       "ui",
