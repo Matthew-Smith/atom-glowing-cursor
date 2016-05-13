@@ -35,3 +35,5 @@ A customizable glowing colorful cursor for Atom.
  * Neon Cursor: https://atom.io/packages/neon-cursor
  * Pulsing Cursor: https://atom.io/packages/pulsing-cursor
  * Block Cursor: https://atom.io/packages/block-cursor
+
+[Buy me a coffee on Pledgie!](https://pledgie.com/campaigns/31674)
