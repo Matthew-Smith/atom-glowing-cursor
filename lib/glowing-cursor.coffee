@@ -46,7 +46,7 @@ module.exports =
         transitionDuration = atom.config.get('glowing-cursor.transitionDuration')
         glowDistance = atom.config.get('glowing-cursor.glowDistance')
         pulseOnRule = createCSSOption(
-          "atom-text-editor::shadow .cursors .cursor"
+          "atom-text-editor .cursors .cursor"
           {
             transition: "opacity ease-in-out"
         	   "transition-duration": "#{transitionDuration}ms";
@@ -54,13 +54,13 @@ module.exports =
             "background-color": "#{innerColor}"
           })
         pulseOffRule = createCSSOption(
-          "atom-text-editor::shadow .cursors.blink-off .cursor"
+          "atom-text-editor .cursors.blink-off .cursor"
           {
             opacity: 0
             visibility: "visible !important"
           })
         cursorRule = createCSSOption(
-          "atom-text-editor::shadow .cursors .cursor"
+          "atom-text-editor .cursors .cursor"
           {
             width: "#{cursorWidth}px !important"
             "box-shadow": "0px 0px #{glowDistance}px 0px #{glowColor}"

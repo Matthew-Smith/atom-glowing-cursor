@@ -1,6 +1,6 @@
 /*this less file will hide the default cursor because we will be styling the shadow cursor in the coffeescript file*/
 
-atom-text-editor::shadow .cursors .cursor {
+atom-text-editor .cursors .cursor {
   opacity: 1;
   color: transparent;
   background-color: transparent;
@@ -8,6 +8,6 @@ atom-text-editor::shadow .cursors .cursor {
   transition-property: background-color, border-color, opacity;
 }
 
-atom-text-editor[mini]:not(.is-focused)::shadow .cursors .cursor {
+atom-text-editor[mini]:not(.is-focused) .cursors .cursor {
   display: none;
 }
